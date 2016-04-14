@@ -2,10 +2,17 @@
   "name": "css-spritesheet",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "SpriteSheet.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jamie Owen <hello@jamieowen.com> (=)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^8.2.1",
+    "resource-loader": "^1.6.4"
+  },
+  "dependencies": {
+    "jss": "^3.6.3"
+  }
 }
